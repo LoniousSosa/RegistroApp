@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">RegistroApp</string>
+    <string name="iniciar_sesion">Iniciar sesion</string>
 </resources>
