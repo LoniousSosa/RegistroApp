@@ -17,12 +17,31 @@
         android:orientation="horizontal">
 
         <ImageButton
-            android:id="@+id/menuProfile"
+            android:id="@+id/menuBanner"
             android:layout_marginTop="25dp"
             android:layout_width="85dp"
             android:layout_height="85dp"
             android:background="@color/sky_blue"
             android:src="@drawable/menu" />
+
+        <TextView
+            android:layout_width="187dp"
+            android:layout_height="52dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginStart="15dp"
+            android:background="@color/sky_blue"
+            android:text="@string/nombre_instituto"
+            android:textSize="20sp" />
+
+        <ImageButton
+            android:id="@+id/profileBanner"
+            android:layout_marginTop="25dp"
+            android:layout_marginStart="15dp"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/perfil1"
+            android:scaleType="fitCenter"
+            android:padding="0dp"/>
 
 
     </LinearLayout>

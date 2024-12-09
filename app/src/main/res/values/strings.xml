@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">RegistroApp</string>
     <string name="iniciar_sesion">Iniciar sesion</string>
+    <string name="nombre_instituto">Nombre instituto</string>
 </resources>
