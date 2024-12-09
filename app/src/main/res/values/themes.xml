@@ -16,4 +16,8 @@
         <item name="android:background">?attr/colorPrimary</item>
         <item name="android:textColor">?attr/colorOnPrimary</item>
     </style>
+    <style name="ButtonOne" parent="Widget.MaterialComponents.Button">
+        <item name="android:textColor">@color/beige</item>
+        <item name="android:backgroundTint">@color/sea_blue</item>
+    </style>
 </resources>
