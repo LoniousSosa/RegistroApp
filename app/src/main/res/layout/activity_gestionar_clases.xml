@@ -48,6 +48,7 @@
     </LinearLayout>
 
     <LinearLayout
+        android:id="@+id/linearLayout3"
         android:layout_width="413dp"
         android:layout_height="578dp"
         android:orientation="vertical"
@@ -60,16 +61,17 @@
             android:orientation="vertical">
 
             <TextView
-                android:id="@+id/nombreClase"
+                android:id="@+id/TextClassName"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="TextView" />
+                android:text="@string/nombre_clase" />
 
             <Button
-                android:id="@+id/BotonClase"
+                android:id="@+id/ButtonClass"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Button" />
+                android:text="@string/nombre_de_ejemplo"
+                android:backgroundTint="@color/sky_blue"/>
         </LinearLayout>
 
         <LinearLayout
@@ -78,24 +80,29 @@
             android:orientation="vertical">
 
             <TextView
-                android:id="@+id/Aula"
+                android:id="@+id/TextAula"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="TextView" />
+                android:text="AULA" />
 
             <Button
-                android:id="@+id/botonAula"
+                android:id="@+id/ButtonAula"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Button" />
+                android:text="@string/nombre_de_ejemplo"
+                android:backgroundTint="@color/sky_blue"/>
 
         </LinearLayout>
 
         <Button
-            android:id="@+id/button3"
+            android:id="@+id/ButtonNext"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Button" />
+            android:text="@string/siguiente"
+            android:textColor="@color/beige"
+            android:backgroundTint="@drawable/rounded_button"
+            android:padding="10dp"
+            android:layout_gravity="center_horizontal"/>
 
     </LinearLayout>
 

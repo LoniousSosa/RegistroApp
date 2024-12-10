@@ -2,4 +2,7 @@
     <string name="app_name">RegistroApp</string>
     <string name="iniciar_sesion">Iniciar sesion</string>
     <string name="nombre_instituto">Nombre instituto</string>
+    <string name="nombre_clase">NOMBRE CLASE</string>
+    <string name="siguiente">Siguiente</string>
+    <string name="nombre_de_ejemplo">Nombre de ejemplo</string>
 </resources>
