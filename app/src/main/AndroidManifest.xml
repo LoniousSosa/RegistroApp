@@ -16,6 +16,18 @@
             android:name=".GestionarClases"
             android:exported="false" />
         <activity
+            android:name=".AsistenciaAlumnos"
+            android:exported="false" />
+        <activity
+            android:name=".ListaAlumnos"
+            android:exported="false" />
+        <activity
+            android:name=".GestionarClases"
+            android:exported="false" />
+        <activity
+            android:name=".PerfilAdministrador"
+            android:exported="false" />
+        <activity
             android:name=".PerfilUsuario"
             android:exported="false" />
         <activity
