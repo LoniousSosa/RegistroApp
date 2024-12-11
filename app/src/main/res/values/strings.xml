@@ -2,4 +2,18 @@
     <string name="app_name">RegistroApp</string>
     <string name="iniciar_sesion">Iniciar sesion</string>
     <string name="nombre_instituto">Nombre instituto</string>
+    <string name="ver_asistencia">Ver asistencia</string>
+    <string name="contacto">Contacto</string>
+    <string name="clases">Clases</string>
+    <string name="gestionar_alumnos">Gestionar alumnos</string>
+    <string name="gestionar_asistencia">Gestionar asistencia</string>
+    <string name="gestionar_clases">Gestionar clases</string>
+    <string name="a_adir_clase">AÑADIR CLASE</string>
+    <string name="editar_clases">EDITAR CLASES</string>
+    <string name="buscar">Buscar</string>
+    <string name="a_adir">Añadir</string>
+    <string name="icono_de_usuario">Icono de usuario</string>
+    <string name="alumno_1">Alumno 1</string>
+    <string name="bot_n_check">Botón check</string>
+    <string name="siguiente">Siguiente</string>
 </resources>

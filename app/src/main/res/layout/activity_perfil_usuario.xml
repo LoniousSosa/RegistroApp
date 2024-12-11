@@ -8,42 +8,120 @@
     tools:context=".PerfilUsuario">
 
     <LinearLayout
+        android:id="@+id/linearLayout"
         android:layout_width="match_parent"
         android:layout_height="150dp"
         android:background="@color/sky_blue"
+        android:orientation="horizontal"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:orientation="horizontal">
+        app:layout_constraintTop_toTopOf="parent">
 
         <ImageButton
             android:id="@+id/menuBanner"
-            android:layout_marginTop="25dp"
             android:layout_width="85dp"
             android:layout_height="85dp"
+            android:layout_marginTop="25dp"
             android:background="@color/sky_blue"
             android:src="@drawable/menu" />
 
         <TextView
             android:layout_width="187dp"
             android:layout_height="52dp"
-            android:layout_marginTop="50dp"
             android:layout_marginStart="15dp"
+            android:layout_marginTop="50dp"
             android:background="@color/sky_blue"
             android:text="@string/nombre_instituto"
             android:textSize="20sp" />
 
         <ImageButton
             android:id="@+id/profileBanner"
-            android:layout_marginTop="25dp"
-            android:layout_marginStart="15dp"
             android:layout_width="80dp"
             android:layout_height="80dp"
-            android:src="@drawable/perfil1"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="25dp"
+            android:padding="0dp"
             android:scaleType="fitCenter"
-            android:padding="0dp"/>
-
-
+            android:src="@drawable/perfil1" />
     </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="56dp"
+        android:text="Hola 'Nombre'"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.311" />
+
+    <ImageView
+        android:id="@+id/groupsImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="34dp"
+        android:src="@drawable/gmail_groups"
+        app:layout_constraintEnd_toEndOf="@+id/textView"
+        app:layout_constraintStart_toStartOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/asistencia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ver_asistencia"
+        android:layout_marginStart="60dp"
+        android:textSize="16sp"
+        app:layout_constraintTop_toTopOf="@+id/groupsImage"
+        app:layout_constraintBottom_toBottomOf="@+id/groupsImage"
+        app:layout_constraintStart_toEndOf="@id/groupsImage"
+        />
+
+    <ImageView
+        android:id="@+id/mailImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="34dp"
+        android:src="@drawable/chat_bubble"
+        app:layout_constraintEnd_toEndOf="@+id/textView"
+        app:layout_constraintStart_toStartOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/groupsImage" />
+
+    <TextView
+        android:id="@+id/contacto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/contacto"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@+id/mailImage"
+        app:layout_constraintEnd_toEndOf="@+id/asistencia"
+        app:layout_constraintStart_toStartOf="@+id/asistencia"
+        app:layout_constraintTop_toTopOf="@+id/mailImage" />
+
+    <ImageView
+        android:id="@+id/clasesImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="34dp"
+        android:src="@drawable/language"
+        app:layout_constraintEnd_toEndOf="@+id/textView"
+        app:layout_constraintStart_toStartOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/mailImage" />
+
+    <TextView
+        android:id="@+id/clases"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/clases"
+        android:textSize="16sp"
+        app:layout_constraintTop_toTopOf="@+id/clasesImage"
+        app:layout_constraintBottom_toBottomOf="@+id/clasesImage"
+        app:layout_constraintStart_toStartOf="@id/asistencia"
+        app:layout_constraintEnd_toEndOf="@id/asistencia"
+        />
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
