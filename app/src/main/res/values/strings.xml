@@ -2,6 +2,10 @@
     <string name="app_name">RegistroApp</string>
     <string name="iniciar_sesion">Iniciar sesion</string>
     <string name="nombre_instituto">Nombre instituto</string>
+    <string name="nombre_clase">NOMBRE CLASE</string>
+    <string name="siguiente">Siguiente</string>
+    <string name="nombre_de_ejemplo">Nombre de ejemplo</string>
+    <string name="aula">AULA</string>
     <string name="ver_asistencia">Ver asistencia</string>
     <string name="contacto">Contacto</string>
     <string name="clases">Clases</string>
@@ -15,5 +19,5 @@
     <string name="icono_de_usuario">Icono de usuario</string>
     <string name="alumno_1">Alumno 1</string>
     <string name="bot_n_check">Botón check</string>
-    <string name="siguiente">Siguiente</string>
+
 </resources>
