@@ -58,51 +58,73 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="220dp"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:paddingTop="15dp">
 
             <TextView
                 android:id="@+id/TextClassName"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/nombre_clase" />
+                android:layout_height="46dp"
+                android:text="@string/nombre_clase"
+                android:textSize="18sp"
+                android:paddingTop="10dp"
+                android:paddingStart="20dp"/>
 
             <Button
                 android:id="@+id/ButtonClass"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_width="357dp"
+                android:layout_height="58dp"
+                android:layout_gravity="left"
+                android:backgroundTint="@color/sky_blue"
                 android:text="@string/nombre_de_ejemplo"
-                android:backgroundTint="@color/sky_blue"/>
+                android:textSize="17sp"/>
         </LinearLayout>
+        <View
+            android:layout_marginTop="10dp"
+            android:id="@+id/view3"
+            android:layout_width="wrap_content"
+            android:layout_height="3dp"
+            android:background="@color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="219dp"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:paddingTop="18dp">
 
             <TextView
                 android:id="@+id/TextAula"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="AULA" />
+                android:layout_height="47dp"
+                android:text="@string/aula"
+                android:textSize="18sp"
+                android:paddingStart="30dp"
+                android:paddingTop="10dp"/>
 
             <Button
                 android:id="@+id/ButtonAula"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_width="364dp"
+                android:layout_height="61dp"
+                android:layout_gravity="left"
+                android:backgroundTint="@color/sky_blue"
                 android:text="@string/nombre_de_ejemplo"
-                android:backgroundTint="@color/sky_blue"/>
+                android:textSize="17sp"/>
 
         </LinearLayout>
 
         <Button
             android:id="@+id/ButtonNext"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/siguiente"
-            android:textColor="@color/beige"
-            android:backgroundTint="@drawable/rounded_button"
+            android:layout_width="149dp"
+            android:layout_height="62dp"
+            android:layout_gravity="right"
+            android:backgroundTint="@color/sea_blue"
             android:padding="10dp"
-            android:layout_gravity="center_horizontal"/>
+            android:text="@string/siguiente"
+            android:textSize="17sp"
+            android:textColor="@color/beige" />
 
     </LinearLayout>
 
