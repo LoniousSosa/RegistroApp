@@ -25,6 +25,7 @@
     <string name="guardar">Guardar</string>
     <string name="contactar_con">Contactar con:</string>
     <string name="email_profesor">Email profesor</string>
+    <string name="email_alumno">Email Alumnos</string>
     <string name="texto_relleno">Problema a resolver:
 
  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</string>
