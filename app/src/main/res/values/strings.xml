@@ -19,5 +19,9 @@
     <string name="icono_de_usuario">Icono de usuario</string>
     <string name="alumno_1">Alumno 1</string>
     <string name="bot_n_check">Botón check</string>
+    <string name="hora_de_inicio">Hora de inicio</string>
+    <string name="hora_final">Hora final</string>
+    <string name="hora_convocatoria">Hora convocatoria</string>
+
 
 </resources>

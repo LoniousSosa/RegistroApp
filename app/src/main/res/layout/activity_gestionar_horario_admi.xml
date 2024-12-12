@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GestionarHorarioAdmi">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="@color/sky_blue"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageButton
+            android:id="@+id/menuBanner"
+            android:layout_width="85dp"
+            android:layout_height="85dp"
+            android:layout_marginTop="25dp"
+            android:background="@color/sky_blue"
+            android:src="@drawable/menu" />
+
+        <TextView
+            android:layout_width="187dp"
+            android:layout_height="52dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="50dp"
+            android:background="@color/sky_blue"
+            android:text="@string/nombre_instituto"
+            android:textSize="20sp" />
+
+        <ImageButton
+            android:id="@+id/profileBanner"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="25dp"
+            android:padding="0dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/perfil1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/line1"
+        android:orientation="horizontal"
+        android:layout_marginTop="100dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:background="@color/sea_blue"
+        >
+
+        <TextView
+            android:id="@+id/gestionAlumnos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hora de inicio"
+            android:textSize="18sp"
+            android:background="@color/sea_blue"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="30dp"
+            />
+
+        <ImageView
+            android:background="@color/sea_blue"
+            android:id="@+id/play1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/invert_arrow"
+            android:layout_marginTop="7dp"
+            android:layout_marginStart="62dp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/line2"
+        android:orientation="horizontal"
+        android:layout_marginTop="90dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/line1"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:background="@color/sea_blue"
+        >
+
+        <TextView
+            android:id="@+id/gestionAsistencia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hora_final"
+            android:textSize="18sp"
+            android:background="@color/sea_blue"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="30dp"
+            />
+
+        <ImageView
+            android:id="@+id/play2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="98dp"
+            android:layout_marginTop="7dp"
+            android:background="@color/sea_blue"
+            android:src="@drawable/invert_arrow" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/line3"
+        android:orientation="horizontal"
+        android:layout_marginTop="90dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/line2"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:background="@color/sea_blue"
+        >
+
+        <TextView
+            android:id="@+id/gestionClases"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hora_convocatoria"
+            android:textSize="18sp"
+            android:background="@color/sea_blue"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="30dp"
+            />
+
+        <ImageView
+            android:background="@color/sea_blue"
+            android:id="@+id/play3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/invert_arrow"
+            android:layout_marginTop="7dp"
+            android:layout_marginStart="25dp"
+            />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
