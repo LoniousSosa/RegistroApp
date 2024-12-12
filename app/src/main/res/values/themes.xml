@@ -20,4 +20,10 @@
         <item name="android:textColor">@color/beige</item>
         <item name="android:backgroundTint">@color/sea_blue</item>
     </style>
+
+    <style name="ButtonTwo" parent="Widget.MaterialComponents.Button">
+        <item name="android:background">@drawable/buttondos</item>
+        <item name="android:textColor">@color/beige</item>
+        <item name="backgroundTint">@null</item>
+    </style>
 </resources>

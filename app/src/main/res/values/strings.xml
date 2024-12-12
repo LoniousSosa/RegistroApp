@@ -23,4 +23,7 @@
     <string name="advertencia_asistencia">Advertencia asistencia</string>
     <string name="alumno">Alumno</string>
     <string name="enviar">Enviar</string>
+    <string name="entrada">ENTRADA</string>
+    <string name="salida">Salida</string>
+    <string name="horas">Horas</string>
 </resources>
