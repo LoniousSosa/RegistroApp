@@ -21,7 +21,7 @@ public class AlumnoAdapterDos extends RecyclerView.Adapter<AlumnoAdapterDos.Alum
     @NonNull
     @Override
     public AlumnoViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-        View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.item_alumno, parent, false);
+        View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.item_alumno_asistencia, parent, false);
         return new AlumnoViewHolder(view);
     }
 

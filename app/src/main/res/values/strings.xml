@@ -2,10 +2,6 @@
     <string name="app_name">RegistroApp</string>
     <string name="iniciar_sesion">Iniciar sesion</string>
     <string name="nombre_instituto">Nombre instituto</string>
-    <string name="nombre_clase">NOMBRE CLASE</string>
-    <string name="siguiente">Siguiente</string>
-    <string name="nombre_de_ejemplo">Nombre de ejemplo</string>
-    <string name="aula">AULA</string>
     <string name="ver_asistencia">Ver asistencia</string>
     <string name="contacto">Contacto</string>
     <string name="clases">Clases</string>
@@ -19,5 +15,12 @@
     <string name="icono_de_usuario">Icono de usuario</string>
     <string name="alumno_1">Alumno 1</string>
     <string name="bot_n_check">Botón check</string>
-
+    <string name="siguiente">Siguiente</string>
+    <string name="hora_final">Hora final</string>
+    <string name="hora_inicio">Hora inicio</string>
+    <string name="hora_convocatoria">Hora convocatoria</string>
+    <string name="mensaje_faltas">Estimado alumno (insertar alumno) se encuentra cerca de su limite de faltas en la asignatura (insertar asignatura). \nSi sigue faltando no me quedará mas remedio que suspenderle. </string>
+    <string name="advertencia_asistencia">Advertencia asistencia</string>
+    <string name="alumno">Alumno</string>
+    <string name="enviar">Enviar</string>
 </resources>
