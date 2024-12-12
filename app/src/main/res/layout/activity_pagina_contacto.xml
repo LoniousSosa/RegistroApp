@@ -109,7 +109,7 @@
                 android:paddingHorizontal="15dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/mensaje_asistencia"
+                android:text="@string/mensaje_faltas"
                 />
 
         </LinearLayout>
@@ -129,6 +129,5 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         />
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>

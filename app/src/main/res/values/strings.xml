@@ -16,4 +16,11 @@
     <string name="alumno_1">Alumno 1</string>
     <string name="bot_n_check">Botón check</string>
     <string name="siguiente">Siguiente</string>
+    <string name="hora_final">Hora final</string>
+    <string name="hora_inicio">Hora inicio</string>
+    <string name="hora_convocatoria">Hora convocatoria</string>
+    <string name="mensaje_faltas">Estimado alumno (insertar alumno) se encuentra cerca de su limite de faltas en la asignatura (insertar asignatura). \nSi sigue faltando no me quedará mas remedio que suspenderle. </string>
+    <string name="advertencia_asistencia">Advertencia asistencia</string>
+    <string name="alumno">Alumno</string>
+    <string name="enviar">Enviar</string>
 </resources>
