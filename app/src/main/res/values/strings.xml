@@ -37,4 +37,12 @@
     <string name="m8">M8</string>
     <string name="m7">M7</string>
     <string name="m6">M6</string>
+    <string name="info_clase">Información de la clase</string>
+    <string name="editar_clase">Editar Clase</string>
+    <string name="alumno_uno">Alumno 1</string>
+    <string name="alumno_dos">Alumno 2</string>
+    <string name="alumno_tres">Alumno 3</string>
+    <string name="clase">Clase</string>
+
+
 </resources>
