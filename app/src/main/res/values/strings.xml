@@ -32,6 +32,9 @@
     <string name="enviar">Enviar</string>
     <string name="aceptar">Aceptar</string>
     <string name="cancelar">Cancelar</string>
-
-
+    <string name="anadir_clase">Añadir Clase</string>
+    <string name="m9">M9</string>
+    <string name="m8">M8</string>
+    <string name="m7">M7</string>
+    <string name="m6">M6</string>
 </resources>
