@@ -16,14 +16,49 @@
     <string name="alumno_1">Alumno 1</string>
     <string name="bot_n_check">Botón check</string>
     <string name="siguiente">Siguiente</string>
-    <string name="hora_final">Hora final</string>
     <string name="hora_inicio">Hora inicio</string>
-    <string name="hora_convocatoria">Hora convocatoria</string>
     <string name="mensaje_faltas">Estimado alumno (insertar alumno) se encuentra cerca de su limite de faltas en la asignatura (insertar asignatura). \nSi sigue faltando no me quedará mas remedio que suspenderle. </string>
     <string name="advertencia_asistencia">Advertencia asistencia</string>
     <string name="alumno">Alumno</string>
-    <string name="enviar">Enviar</string>
     <string name="entrada">ENTRADA</string>
     <string name="salida">Salida</string>
     <string name="horas">Horas</string>
+    <string name="nombre_clase">NOMBRE CLASE</string>
+    <string name="nombre_de_ejemplo">Nombre de ejemplo</string>
+    <string name="aula">AULA</string>
+    <string name="alumno_nuevo">Alumno nuevo</string>
+    <string name="registrarse">REGISTRARSE</string>
+    <string name="placeholder">Placeholder</string>
+    <string name="nombre_de_usuario">Nombre de usuario</string>
+    <string name="email">Correo electrónico</string>
+    <string name="password">Contraseña</string>
+    <string name="rep_password">Repetir contraseña</string>
+    <string name="register">Registrarse</string>
+    <string name="legal_terms">Acepta las condiciones \n legales para registrarse</string>
+    =======
+    <string name="hora_de_inicio">Hora de inicio</string>
+    <string name="hora_final">Hora final</string>
+    <string name="hora_convocatoria">Hora convocatoria</string>
+    <string name="guardar">Guardar</string>
+    <string name="contactar_con">Contactar con:</string>
+    <string name="email_profesor">Email profesor</string>
+    <string name="email_alumno">Email Alumnos</string>
+    <string name="texto_relleno">Problema a resolver:
+ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</string>
+    <string name="enviar">Enviar</string>
+    <string name="aceptar">Aceptar</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="anadir_clase">Añadir Clase</string>
+    <string name="m9">M9</string>
+    <string name="m8">M8</string>
+    <string name="m7">M7</string>
+    <string name="m6">M6</string>
+    <string name="info_clase">Información de la clase</string>
+    <string name="editar_clase">Editar Clase</string>
+    <string name="alumno_uno">Alumno 1</string>
+    <string name="alumno_dos">Alumno 2</string>
+    <string name="alumno_tres">Alumno 3</string>
+    <string name="clase">Clase</string>
+    <string name="email_alumnos">Email Alumnos</string>
+    <string name="classtrack">ClassTrack</string>
 </resources>

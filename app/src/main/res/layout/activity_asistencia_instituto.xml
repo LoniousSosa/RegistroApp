@@ -51,7 +51,7 @@
         android:layout_height="60dp"
         >
         <Button
-            android:background="@drawable/buttondos"
+            android:background="@drawable/button_dos"
             style="@style/ButtonTwo"
             android:text="@string/entrada"
             android:backgroundTint="@null"
@@ -61,7 +61,7 @@
             />
 
         <Button
-            android:background="@drawable/buttondos"
+            android:background="@drawable/button_dos"
             style="@style/ButtonTwo"
             android:text="@string/salida"
             android:backgroundTint="@null"
@@ -70,7 +70,7 @@
             />
 
         <Button
-            android:background="@drawable/buttondos"
+            android:background="@drawable/button_dos"
             style="@style/ButtonTwo"
             android:text="@string/horas"
             android:backgroundTint="@null"
