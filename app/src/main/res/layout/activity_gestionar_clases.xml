@@ -45,94 +45,28 @@
             android:src="@drawable/perfil1" />
     </LinearLayout>
 
-    <LinearLayout
-        android:id="@+id/linearLayout3"
+    <Button
+        style="@style/ButtonTwo"
+        android:id="@+id/addClass"
         android:layout_width="match_parent"
-        android:layout_height="220dp"
-        android:layout_marginBottom="124dp"
-        android:orientation="vertical"
-        android:paddingTop="15dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        tools:layout_editor_absoluteX="-16dp">
-
-        <TextView
-            android:id="@+id/TextClassName"
-            android:layout_width="match_parent"
-            android:layout_height="46dp"
-            android:paddingStart="20dp"
-            android:paddingTop="10dp"
-            android:text="@string/aula"
-            android:textSize="18sp" />
-
-        <Button
-            android:id="@+id/ButtonClass"
-            android:layout_width="357dp"
-            android:layout_height="58dp"
-            android:layout_gravity="left"
-            android:textAllCaps="false"
-            android:backgroundTint="@color/sky_blue"
-            android:text="@string/nombre_de_ejemplo"
-            android:textSize="17sp" />
-    </LinearLayout>
-
-    <View
-        android:elevation="2dp"
-        android:id="@+id/view3"
-        android:layout_width="wrap_content"
-        android:layout_height="3dp"
-        android:background="@color/white"
-        app:layout_constraintBottom_toBottomOf="@+id/linearLayout4"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0" />
-
-    <LinearLayout
-        android:id="@+id/linearLayout4"
-        android:layout_width="match_parent"
-        android:layout_height="219dp"
-        android:orientation="vertical"
-        android:paddingTop="18dp"
-        tools:layout_editor_absoluteX="-16dp"
-        tools:layout_editor_absoluteY="150dp"
+        android:layout_height="61dp"
+        android:layout_gravity="start"
+        android:layout_marginTop="144dp"
+        android:text="@string/add_class"
+        android:textSize="17sp"
         app:layout_constraintTop_toBottomOf="@id/linearLayout2"
-        >
-
-        <TextView
-            android:id="@+id/TextAula"
-            android:layout_width="match_parent"
-            android:layout_height="47dp"
-            android:paddingStart="30dp"
-            android:paddingTop="10dp"
-            android:text="@string/nombre_clase"
-            android:textSize="18sp" />
-
-        <Button
-            android:id="@+id/ButtonAula"
-            android:layout_width="364dp"
-            android:layout_height="61dp"
-            android:layout_gravity="start"
-            android:backgroundTint="@color/sky_blue"
-            android:textAllCaps="false"
-            android:text="@string/nombre_de_ejemplo"
-            android:textSize="17sp" />
-    </LinearLayout>
+        tools:layout_editor_absoluteX="0dp" />
 
     <Button
-        android:id="@+id/ButtonNext"
-        android:layout_width="149dp"
-        android:layout_height="62dp"
-        android:layout_gravity="end"
-        android:layout_marginEnd="4dp"
-        android:layout_marginBottom="36dp"
-        android:backgroundTint="@color/sea_blue"
-        android:padding="10dp"
-        android:text="@string/siguiente"
-        android:textColor="@color/beige"
+        style="@style/ButtonTwo"
+        android:id="@+id/editClass"
+        android:layout_width="match_parent"
+        android:layout_height="61dp"
+        android:layout_gravity="start"
+        android:layout_marginTop="76dp"
+        android:text="@string/edit_class"
         android:textSize="17sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
-
+        app:layout_constraintTop_toBottomOf="@id/addClass"
+        tools:layout_editor_absoluteX="0dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
