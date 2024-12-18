@@ -26,4 +26,16 @@
     <string name="entrada">ENTRADA</string>
     <string name="salida">Salida</string>
     <string name="horas">Horas</string>
+    <string name="nombre_clase">NOMBRE CLASE</string>
+    <string name="nombre_de_ejemplo">Nombre de ejemplo</string>
+    <string name="aula">AULA</string>
+    <string name="alumno_nuevo">Alumno nuevo</string>
+    <string name="registrarse">REGISTRARSE</string>
+    <string name="placeholder">Placeholder</string>
+    <string name="nombre_de_usuario">Nombre de usuario</string>
+    <string name="email">Correo electrónico</string>
+    <string name="password">Contraseña</string>
+    <string name="rep_password">Repetir contraseña</string>
+    <string name="register">Registrarse</string>
+    <string name="legal_terms">Acepta las condiciones \n legales para registrarse</string>
 </resources>
