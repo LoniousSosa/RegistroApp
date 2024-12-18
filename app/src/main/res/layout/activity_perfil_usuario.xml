@@ -67,17 +67,20 @@
         app:layout_constraintStart_toStartOf="@+id/textView"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
-    <TextView
+    <Button
+        style="@style/ButtonTwo"
         android:id="@+id/asistencia"
-        android:layout_width="wrap_content"
+        android:layout_width="162dp"
         android:layout_height="wrap_content"
         android:text="@string/ver_asistencia"
         android:layout_marginStart="60dp"
         android:textSize="16sp"
+        android:textAllCaps="false"
         app:layout_constraintTop_toTopOf="@+id/groupsImage"
         app:layout_constraintBottom_toBottomOf="@+id/groupsImage"
         app:layout_constraintStart_toEndOf="@id/groupsImage"
         />
+
 
     <ImageView
         android:id="@+id/mailImage"
@@ -89,10 +92,12 @@
         app:layout_constraintStart_toStartOf="@+id/textView"
         app:layout_constraintTop_toBottomOf="@+id/groupsImage" />
 
-    <TextView
+    <Button
+        style="@style/ButtonTwo"
         android:id="@+id/contacto"
-        android:layout_width="wrap_content"
+        android:layout_width="162dp"
         android:layout_height="wrap_content"
+        android:textAllCaps="false"
         android:text="@string/contacto"
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="@+id/mailImage"
@@ -110,10 +115,12 @@
         app:layout_constraintStart_toStartOf="@+id/textView"
         app:layout_constraintTop_toBottomOf="@+id/mailImage" />
 
-    <TextView
+    <Button
+        style="@style/ButtonTwo"
         android:id="@+id/clases"
-        android:layout_width="wrap_content"
+        android:layout_width="162dp"
         android:layout_height="wrap_content"
+        android:textAllCaps="false"
         android:text="@string/clases"
         android:textSize="16sp"
         app:layout_constraintTop_toTopOf="@+id/clasesImage"

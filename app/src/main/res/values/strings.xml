@@ -61,4 +61,6 @@
     <string name="clase">Clase</string>
     <string name="email_alumnos">Email Alumnos</string>
     <string name="classtrack">ClassTrack</string>
+    <string name="tarjeta">INTRODUZCA SU \n TARJETA</string>
+    <string name="login">Iniciar Sesión</string>
 </resources>
