@@ -1,24 +1,33 @@
 package com.example.registroapp;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.widget.LinearLayout;
 
-import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.graphics.Insets;
-import androidx.core.view.ViewCompat;
-import androidx.core.view.WindowInsetsCompat;
 
 public class PerfilAdministrador extends AppCompatActivity {
+    LinearLayout line1,line2,line3;
+    Intent intent;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        EdgeToEdge.enable(this);
         setContentView(R.layout.activity_perfil_administrador);
-        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
-            Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
-            v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
-            return insets;
+        line1 = findViewById(R.id.line1);
+        line2 = findViewById(R.id.line2);
+        line3 = findViewById(R.id.line3);
+        line1.setOnClickListener(v -> {
+            intent = new Intent(this, ListaAlumnos.class);
+            startActivity(intent);
+        });
+        line2.setOnClickListener(v -> {
+            intent = new Intent(this, AsistenciaAlumnos.class);
+            startActivity(intent);
+        });
+        line3.setOnClickListener(v -> {
+            intent = new Intent(this, GestionarClases.class);
+            startActivity(intent);
         });
     }
 }

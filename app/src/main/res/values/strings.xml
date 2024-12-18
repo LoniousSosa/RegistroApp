@@ -63,4 +63,6 @@
     <string name="classtrack">ClassTrack</string>
     <string name="tarjeta">INTRODUZCA SU \n TARJETA</string>
     <string name="login">Iniciar Sesión</string>
+    <string name="add_class">Añadir clase</string>
+    <string name="edit_class">Editar Clases</string>
 </resources>
