@@ -13,52 +13,55 @@
         android:theme="@style/Theme.RegistroApp"
         tools:targetApi="31">
         <activity
+            android:name=".Login"
+            android:exported="false" />
+        <activity
             android:name=".TarjetaActivity"
             android:exported="false" />
         <activity
             android:name=".Register"
             android:exported="false" />
         <activity
-            android:name=".InformacionClase"
-            android:exported="false" />
-        <activity
-            android:name=".EditarClases"
-            android:exported="false" />
-        <activity
-            android:name=".SeleccionarHora"
+            android:name=".AsistenciaInstituto"
             android:exported="false" />
         <activity
             android:name=".PaginaContactoUsuario"
             android:exported="false" />
         <activity
-            android:name=".PaginaContactoAdmi"
-            android:exported="false" />
-        <activity
-            android:name=".AnadirFotoAdmi"
-            android:exported="false" />
-        <activity
-            android:name=".GestionarHorarioAdmi"
-            android:exported="false" />
-        <activity
-            android:name=".GestionarClases"
+            android:name=".AddPasoDos"
             android:exported="false" />
         <activity
             android:name=".AsistenciaAlumnos"
             android:exported="false" />
         <activity
-            android:name=".PaginaContacto"
-            android:exported="false" />
-        <activity
-            android:name=".AddPasoDos"
-            android:exported="false" />
-        <activity
             android:name=".ListaAlumnos"
+            android:exported="false" />
+        <activity
+            android:name=".GestionarClases"
             android:exported="false" />
         <activity
             android:name=".PerfilAdministrador"
             android:exported="false" />
         <activity
             android:name=".PerfilUsuario"
+            android:exported="false" />
+        <activity
+            android:name=".AnadirFotoAdmi"
+            android:exported="false" />
+        <activity
+            android:name=".EditarClases"
+            android:exported="false" />
+        <activity
+            android:name=".GestionarHorarioAdmi"
+            android:exported="false" />
+        <activity
+            android:name=".InformacionClase"
+            android:exported="false" />
+        <activity
+            android:name=".PaginaContactoAdmi"
+            android:exported="false" />
+        <activity
+            android:name=".SeleccionarHora"
             android:exported="false" />
         <activity
             android:name=".MainActivity"

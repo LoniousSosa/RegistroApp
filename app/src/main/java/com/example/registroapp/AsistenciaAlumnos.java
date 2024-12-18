@@ -13,7 +13,7 @@ import java.util.List;
 public class AsistenciaAlumnos extends AppCompatActivity {
 
     private RecyclerView recyclerView;
-    private AlumnoAdapter adapter;
+    private AlumnoAdapterDos adapter;
     private Button siguienteButton;
 
     @Override
@@ -22,7 +22,7 @@ public class AsistenciaAlumnos extends AppCompatActivity {
         setContentView(R.layout.activity_asistencia_alumnos);
 
         // Configurar RecyclerView
-        recyclerView = findViewById(R.id.recycler_view);
+        recyclerView = findViewById(R.id.recycler_viewAsist);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
 
         // Configurar lista de alumnos
@@ -34,7 +34,7 @@ public class AsistenciaAlumnos extends AppCompatActivity {
         listaAlumnos.add(new Alumno("Alumno 5"));
 
         // Configurar adaptador
-        adapter = new AlumnoAdapter(listaAlumnos);
+        adapter = new AlumnoAdapterDos(listaAlumnos);
         recyclerView.setAdapter(adapter);
 
         // Configurar botón "Siguiente"

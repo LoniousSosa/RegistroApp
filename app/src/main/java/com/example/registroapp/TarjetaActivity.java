@@ -11,26 +11,27 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
-public class PerfilUsuario extends AppCompatActivity {
-    Button asistencia,contacto,clases;
+public class TarjetaActivity extends AppCompatActivity {
+
+    Button logInButton,registerButton,adminButton;
     Intent intent;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_perfil_usuario);
-        asistencia = findViewById(R.id.asistencia);
-        contacto = findViewById(R.id.contacto);
-        clases = findViewById(R.id.clases);
-        asistencia.setOnClickListener(v -> {
-            intent = new Intent(this, AsistenciaInstituto.class);
+        setContentView(R.layout.activity_tarjeta);
+        logInButton = findViewById(R.id.nextButton);
+        registerButton = findViewById(R.id.nextButtonRegister);
+        adminButton = findViewById(R.id.botonAdmin);
+        logInButton.setOnClickListener(v -> {
+            intent = new Intent(this, PerfilUsuario.class);
             startActivity(intent);
         });
-        contacto.setOnClickListener(v -> {
-            intent = new Intent(this,PaginaContacto.class);
+        registerButton.setOnClickListener(v -> {
+            intent = new Intent(this, Register.class);
             startActivity(intent);
         });
-        clases.setOnClickListener(v -> {
+        adminButton.setOnClickListener(v -> {
             intent = new Intent(this, PerfilAdministrador.class);
             startActivity(intent);
         });
