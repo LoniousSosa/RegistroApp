@@ -16,6 +16,71 @@
         app:layout_constraintTop_toTopOf="parent"/>
 
     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        android:orientation="horizontal"
+        android:padding="8dp"
+        app:layout_constraintTop_toBottomOf="@id/view3"
+        tools:layout_editor_absoluteX="0dp">
+
+        <!-- Icono del usuario -->
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginHorizontal="20dp"
+            android:contentDescription="@string/icono_de_usuario"
+            android:padding="4dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/grey_profile" />
+
+        <!-- Nombre del alumno -->
+        <TextView
+            android:id="@+id/nombre_alumno1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="@string/alumno_1"
+            android:textSize="18sp" />
+
+        <!-- Botones de acción -->
+        <ImageView
+            android:id="@+id/check_button1"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="8dp"
+            android:contentDescription="@string/bot_n_check"
+            android:scaleType="centerInside"
+            android:src="@drawable/check_box" />
+
+        <ImageView
+            android:id="@+id/delete_button1"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="8dp"
+            android:contentDescription="Botón eliminar"
+            android:scaleType="centerInside"
+            android:src="@drawable/close" />
+
+        <ImageView
+            android:id="@+id/message_button1"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_marginTop="5dp"
+            android:contentDescription="Botón mensaje"
+            android:scaleType="centerInside"
+            android:src="@drawable/mail" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
         app:layout_constraintTop_toBottomOf="@id/view3"
         xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent"
@@ -37,7 +102,7 @@
         <!-- Nombre del alumno -->
         <TextView
             android:layout_marginTop="10dp"
-            android:id="@+id/nombre_alumno"
+            android:id="@+id/nombre_alumno2"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -49,7 +114,7 @@
         <!-- Botones de acción -->
         <ImageView
             android:layout_marginTop="5dp"
-            android:id="@+id/check_button"
+            android:id="@+id/check_button2"
             android:layout_width="32dp"
             android:layout_height="32dp"
             android:src="@drawable/check_box"
@@ -59,7 +124,7 @@
 
         <ImageView
             android:layout_marginTop="5dp"
-            android:id="@+id/delete_button"
+            android:id="@+id/delete_button2"
             android:layout_width="32dp"
             android:layout_height="32dp"
             android:src="@drawable/close"
@@ -69,11 +134,76 @@
 
         <ImageView
             android:layout_marginTop="5dp"
-            android:id="@+id/message_button"
+            android:id="@+id/message_button2"
             android:layout_width="32dp"
             android:layout_height="32dp"
             android:src="@drawable/mail"
             android:contentDescription="Botón mensaje"
             android:scaleType="centerInside" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="128dp"
+        android:orientation="horizontal"
+        android:padding="8dp"
+        app:layout_constraintTop_toBottomOf="@id/view3"
+        tools:layout_editor_absoluteX="0dp">
+
+        <!-- Icono del usuario -->
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginHorizontal="20dp"
+            android:contentDescription="@string/icono_de_usuario"
+            android:padding="4dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/grey_profile" />
+
+        <!-- Nombre del alumno -->
+        <TextView
+            android:id="@+id/nombre_alumno"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="@string/alumno_1"
+            android:textSize="18sp" />
+
+        <!-- Botones de acción -->
+        <ImageView
+            android:id="@+id/check_button"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="8dp"
+            android:contentDescription="@string/bot_n_check"
+            android:scaleType="centerInside"
+            android:src="@drawable/check_box" />
+
+        <ImageView
+            android:id="@+id/delete_button"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="8dp"
+            android:contentDescription="Botón eliminar"
+            android:scaleType="centerInside"
+            android:src="@drawable/close" />
+
+        <ImageView
+            android:id="@+id/message_button"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_marginTop="5dp"
+            android:contentDescription="Botón mensaje"
+            android:scaleType="centerInside"
+            android:src="@drawable/mail" />
+
+
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
