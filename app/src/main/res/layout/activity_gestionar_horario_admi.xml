@@ -145,4 +145,19 @@
             />
     </LinearLayout>
 
+    <Button
+        android:id="@+id/ButtonNext"
+        android:layout_width="149dp"
+        android:layout_height="62dp"
+        android:layout_gravity="end"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="60dp"
+        android:backgroundTint="@color/sea_blue"
+        android:padding="10dp"
+        android:text="@string/siguiente"
+        android:textColor="@color/beige"
+        android:textSize="17sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,5 +1,6 @@
 package com.example.registroapp;
 
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -32,14 +33,15 @@ public class AlumnoAdapterDos extends RecyclerView.Adapter<AlumnoAdapterDos.Alum
 
         // Configurar acciones de los botones
         holder.checkButton.setOnClickListener(v ->
-                Toast.makeText(holder.itemView.getContext(), "Check para " + alumno.getNombre(), Toast.LENGTH_SHORT).show()
+                Toast.makeText(holder.itemView.getContext(), "Presentado:" + alumno.getNombre(), Toast.LENGTH_SHORT).show()
         );
 
         holder.deleteButton.setOnClickListener(v ->
-                Toast.makeText(holder.itemView.getContext(), "Eliminar a " + alumno.getNombre(), Toast.LENGTH_SHORT).show()
+                Toast.makeText(holder.itemView.getContext(), "No presentado: " + alumno.getNombre(), Toast.LENGTH_SHORT).show()
         );
 
         holder.messageButton.setOnClickListener(v ->
+
                 Toast.makeText(holder.itemView.getContext(), "Mensaje a " + alumno.getNombre(), Toast.LENGTH_SHORT).show()
         );
     }

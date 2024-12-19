@@ -64,14 +64,16 @@
             android:text="@string/aula"
             android:textSize="18sp" />
 
-        <Button
+        <EditText
             android:id="@+id/ButtonClass"
             android:layout_width="357dp"
             android:layout_height="58dp"
+            android:paddingStart="20dp"
             android:layout_gravity="left"
             android:textAllCaps="false"
-            android:backgroundTint="@color/sky_blue"
-            android:text="@string/nombre_de_ejemplo"
+            android:background="@color/sky_blue"
+            android:hint="@string/nombre_de_ejemplo"
+            android:textColorHint="@color/white"
             android:textSize="17sp" />
     </LinearLayout>
 
@@ -108,14 +110,15 @@
             android:text="@string/nombre_clase"
             android:textSize="18sp" />
 
-        <Button
+        <EditText
             android:id="@+id/ButtonAula"
             android:layout_width="364dp"
             android:layout_height="61dp"
+            android:paddingStart="20dp"
             android:layout_gravity="start"
-            android:backgroundTint="@color/sky_blue"
-            android:textAllCaps="false"
-            android:text="@string/nombre_de_ejemplo"
+            android:background="@color/sky_blue"
+            android:hint="@string/nombre_de_ejemplo"
+            android:textColorHint="@color/white"
             android:textSize="17sp" />
     </LinearLayout>
 
@@ -125,7 +128,7 @@
         android:layout_height="62dp"
         android:layout_gravity="end"
         android:layout_marginEnd="4dp"
-        android:layout_marginBottom="36dp"
+        android:layout_marginBottom="60dp"
         android:backgroundTint="@color/sea_blue"
         android:padding="10dp"
         android:text="@string/siguiente"

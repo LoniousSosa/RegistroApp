@@ -65,4 +65,6 @@
     <string name="login">Iniciar Sesión</string>
     <string name="add_class">Añadir clase</string>
     <string name="edit_class">Editar Clases</string>
+    <string name="problema">Introducir problema a resolver y o comentar con el alumnado</string>
+    <string name="clase_nueva">Clase nueva</string>
 </resources>

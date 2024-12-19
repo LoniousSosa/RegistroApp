@@ -3,6 +3,9 @@ package com.example.registroapp;
 import android.os.Bundle;
 
 import android.os.Bundle;
+import android.widget.EditText;
+import android.widget.Toast;
+
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
@@ -11,33 +14,44 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class ListaAlumnos extends AppCompatActivity {
-    private RecyclerView recyclerView;
     private AlumnoAdapter adapter;
-    private List<Alumno> alumnos;
+    EditText editAlumno, editClase;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_lista_alumnos);
+        editAlumno = findViewById(R.id.editAlumno);
+        editClase = findViewById(R.id.editClase);
 
-        recyclerView = findViewById(R.id.recycler_view);
+        RecyclerView recyclerView = findViewById(R.id.recycler);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
 
-        // Crear lista de alumnos
-        alumnos = new ArrayList<>();
-        alumnos.add(new Alumno("Alumno 1", "Clase 1"));
-        alumnos.add(new Alumno("Alumno 2", "Clase 2"));
-        alumnos.add(new Alumno("Alumno 3", "Clase 3"));
-        alumnos.add(new Alumno("Alumno 4", "Clase 4"));
-        alumnos.add(new Alumno("Alumno 5", "Clase 5"));
 
-        // Configurar Adapter
+        List<Alumno> alumnos = new ArrayList<>();
+        alumnos.add(new Alumno("Karen", "DAW"));
+        alumnos.add(new Alumno("Pau", "DAM"));
+        alumnos.add(new Alumno("Albaro", "ASIX"));
+        alumnos.add(new Alumno("Lonious", "DAM"));
+        alumnos.add(new Alumno("Guillermo", "ASIX"));
+
         adapter = new AlumnoAdapter(alumnos);
         recyclerView.setAdapter(adapter);
 
-        // Botón añadir
+
         findViewById(R.id.add_button).setOnClickListener(v -> {
-            alumnos.add(new Alumno("Alumno nuevo", "Nueva clase"));
-            adapter.notifyItemInserted(alumnos.size() - 1);
+            String nombreAlumno = editAlumno.getText().toString().trim();
+            String claseAlumno = editClase.getText().toString().trim();
+
+            if (!nombreAlumno.isEmpty() && !claseAlumno.isEmpty()) {
+                alumnos.add(new Alumno(nombreAlumno, claseAlumno));
+                adapter.notifyItemInserted(alumnos.size() - 1);
+
+                editAlumno.setText("");
+                editClase.setText("");
+            } else {
+                Toast.makeText(this, "Por favor, rellena ambos campos.", Toast.LENGTH_SHORT).show();
+            }
         });
 
     }
