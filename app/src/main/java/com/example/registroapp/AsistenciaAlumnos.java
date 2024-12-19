@@ -1,6 +1,8 @@
 package com.example.registroapp;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 import androidx.annotation.NonNull;
@@ -15,6 +17,7 @@ public class AsistenciaAlumnos extends AppCompatActivity {
     private RecyclerView recyclerView;
     private AlumnoAdapterDos adapter;
     private Button siguienteButton;
+    Intent intent;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,11 +30,11 @@ public class AsistenciaAlumnos extends AppCompatActivity {
 
         // Configurar lista de alumnos
         List<Alumno> listaAlumnos = new ArrayList<>();
-        listaAlumnos.add(new Alumno("Alumno 1"));
-        listaAlumnos.add(new Alumno("Alumno 2"));
-        listaAlumnos.add(new Alumno("Alumno 3"));
-        listaAlumnos.add(new Alumno("Alumno 4"));
-        listaAlumnos.add(new Alumno("Alumno 5"));
+        listaAlumnos.add(new Alumno("Karen"));
+        listaAlumnos.add(new Alumno("Albaro"));
+        listaAlumnos.add(new Alumno("Guillermo"));
+        listaAlumnos.add(new Alumno("Pau"));
+        listaAlumnos.add(new Alumno("Lonious"));
 
         // Configurar adaptador
         adapter = new AlumnoAdapterDos(listaAlumnos);
@@ -39,8 +42,10 @@ public class AsistenciaAlumnos extends AppCompatActivity {
 
         // Configurar botón "Siguiente"
         siguienteButton = findViewById(R.id.nextButton);
-        siguienteButton.setOnClickListener(v ->
-                Toast.makeText(AsistenciaAlumnos.this, "Siguiente pulsado", Toast.LENGTH_SHORT).show()
-        );
+
+        siguienteButton.setOnClickListener(v -> {
+            intent = new Intent(this,PaginaContacto.class);
+            startActivity(intent);
+        });
     }
 }
